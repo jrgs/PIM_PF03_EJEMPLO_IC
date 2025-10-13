@@ -30,7 +30,7 @@ jobs:
 
     # 3. Ejecutar todos los tests con Maven
     - name: Run Maven tests
-      run: mvn -B clean tests --file pom.xml
+      run: mvn -B clean test --file pom.xml
 
     # 4. Generar reportes HTML y site
     - name: Generate HTML report
